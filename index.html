@@ -30,37 +30,39 @@
                 <fieldset class="names">
                     <!-- first name -->
                         <div class="align">
-                        <label for="first_name">First Name:</label>
-                        <input type="name" id="first_name" name="first_name">
+                        <label for="first_name">* First Name:</label>
+                        <input type="name" id="first_name" name="first_name" required>
                         </div>
                     <!-- last name -->
                         <div class="align">
-                        <label for="last_name">Last Name:</label>
-                        <input type="name" id="last" name="last_name">
+                        <label for="last_name">* Last Name:</label>
+                        <input type="name" id="last" name="last_name" required>
                         </div>
                 </fieldset>
                 <fieldset class="contact">
                     <!-- email -->
                         <div class="align">
-                        <label for="user_email">Email Address:</label>
-                        <input type="email" id="user_email" name="email">
+                        <label for="user_email">* Email Address:</label>
+                        <input type="email" id="user_email" name="email" required>
                         </div>
                     <!-- phone number -->
                         <div class="align">
-                        <label for="user_phone_number">Phone Number:</label>
-                        <input type="tel" id="user_phone_number" name="user_phone_number">
+                        <label for="user_phone_number">* Phone Number:</label>
+                        <input pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX" type="tel" id="user_phone_number" name="user_phone_number" required>
                         </div>
                 </fieldset>
                 <fieldset class="passwords">
                     <!-- password -->
                         <div class="align">
-                        <label for="user_password">Password:</label>
-                        <input type="password" id="user_password" name="password">
+                        <label for="user_password">* Password:</label>
+                        <p>(Must be between 6-15 characters)</p>
+                        <input minlength="6" maxlength="15" type="password" id="user_password" name="password" required>
                         </div>
                     <!-- password confirmation -->
                         <div class="align">
-                        <label for="user_password_confirmation">Confirm Password:</label>
-                        <input type="password" id="user_password_confirmation" name="password">
+                        <label for="user_password_confirmation">* Confirm Password:</label>
+                        <p>(Must be between 6-15 characters)</p>
+                        <input minlength="6" maxlength="15" type="password" id="user_password_confirmation" name="password" required>
                         </div>
                 </fieldset>
 
