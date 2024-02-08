@@ -3,27 +3,30 @@
     display: flex;
     justify-content: space-between;
     padding: 45px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif
 }
 
-.form_div {
-    border-width: 10px;
-    border-color: aqua;
-    border: solid;
 
-} 
 form {
     height: 400px;
-    font-size: 24px;
+    font-size: 20px;
+
 }
+
+fieldset {
+    border-radius: 10px;
+    padding: 25px;
+    border: solid;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width:775px;
+    border-color: rgb(255, 130, 188)
+}
+
 
 .right_side {
     padding: 25px;
     width: 800px;
-}
-
-.text {
-    font-family: 'Ubuntu', sans-serif !important;
 }
 
 .pink_font {
@@ -36,11 +39,10 @@ img {
 
 .title {
     position: absolute;
-    bottom: 65px;
-    left: 55px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 120px;
+    bottom: 60px;
+    left: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 125px;
     font-weight: 900;
 }
 
@@ -57,29 +59,72 @@ h1 {
 .contact,
 .passwords {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 label {
     padding: 5px;
+    padding-right: 0px;
+    font-size: 24px;
 }
 
 button {
-    background-color: rgb(255, 206, 233);
+    background-color: #ffffff;
+    color: rgb(255, 130, 188);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
-    height: 50px;
-    width: 300px;
+    height: 70px;
+    width: 320px;
+    border-radius: 15px;
+    border: solid;
+    border-color: rgb(255, 130, 188);
+    margin-top: 15px;
 }
 
-.email_inputs {
+button:hover {
+    background-color: rgb(255, 232, 243);
+}
+
+
+input {
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.align {
     display: flex;
     flex-direction: column;
+    justify-content: left;
 }
 
-.news {
-    font-size: 18px;
-}
-
-.check {
+.bottom {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 10px;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10;
+    padding-top: 25px;
+}
+
+a:hover {
+    color: rgb(255, 130, 188);
 }
