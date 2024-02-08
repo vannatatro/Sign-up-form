@@ -1,0 +1,85 @@
+
+.everthing {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_div {
+    border-width: 10px;
+    border-color: aqua;
+    border: solid;
+
+} 
+form {
+    height: 400px;
+    font-size: 24px;
+}
+
+.right_side {
+    padding: 25px;
+    width: 800px;
+}
+
+.text {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.pink_font {
+    color: rgb(255, 130, 188);
+}
+img {
+    height:950px;
+
+}
+
+.title {
+    position: absolute;
+    bottom: 65px;
+    left: 55px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+* {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.names,
+.contact,
+.passwords {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+label {
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(255, 206, 233);
+    font-size: 32px;
+    height: 50px;
+    width: 300px;
+}
+
+.email_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    font-size: 18px;
+}
+
+.check {
+    display: flex;
+}
